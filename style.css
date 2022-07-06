@@ -34,10 +34,18 @@ h1 {
 
 
 
+
+}
+
+
+
+
+.donate-help h1 {
+    font-size: 70px;
 }
 
 .donate-help p {
-    font-size: 40px;
+    font-size: 20px;
     color: white;
 }
 
@@ -60,17 +68,81 @@ h1 {
 
 .donate-amount {
     text-align: center;
-    font-size: 40px;
+    margin-top: 5%;
+
+
+
 
 }
 
-li {
+.donate-amount h1 {
+    font-size: 40px;
+}
+
+.donate-amount p {
+    font-size: 20px;
+    margin-bottom: 5%;
+
+}
+
+.donate-amount li {
     display: inline;
     width: 50%;
     margin-left: 1%;
     margin-right: 1%;
     box-shadow: 5px 5px 10px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5%;
+
+
 }
+
+#two-hundred {
+    color: red;
+    width: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 3px solid red;
+    box-shadow: 5px 5px 10px gray;
+    background-color: lightpink;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5%;
+}
+
+hr {
+    margin-top: 0;
+    width: 40%;
+    color: grey;
+    margin-bottom: 2%;
+
+
+}
+
+.amount-tk {
+    text-align: center;
+}
+
+.amount-tk p {
+    margin-top: 5%;
+
+}
+
+.amount-tk a {
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+
+}
+
 
 
 
